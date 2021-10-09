@@ -1,4 +1,4 @@
-import img1 from './images/sam2.jpg';
+
 const data = 
     
     [
@@ -6,7 +6,7 @@ const data =
           "category": "Samsung",
           "id": 1,
           "model": "Galaxy Z flip3",
-          "picture": img1,
+          "picture": '../images/sam2.jpg',
           "body": "Plastic front, glass back (Gorilla Glass Victus), aluminum frame",
           "display": "1080 x 2640 pixels (~426 ppi density)",
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",

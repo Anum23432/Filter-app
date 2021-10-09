@@ -1,6 +1,11 @@
 import React, {useState} from "react";
 import Card from "./Card";
 import data from "./Data";
+import logo1 from './images/ap1.jpg';
+import logo2 from './images/ap5.jpg';
+import logo3 from './images/ap7.jpg';
+import logo4 from './images/ap2.jpg';
+import logo5 from './images/all.jpg';
 
 
 
@@ -19,15 +24,19 @@ function Blog() {
        
     return(
     <>
-    <h2>Blog page </h2>
-    <button onClick={() => {filterItem('Samsung')}}> Samsung</button>
-    <button onClick={() => {filterItem('Apple')}}> Apple</button>
-    <button onClick={() => {filterItem('Oppo')}}> Oppo</button>
-    <button onClick={() => {filterItem('Huawei')}}> Huawei</button>
-    <button onClick={() => {setDataItems(data)}}> All</button>
+    <br/><br/><br/>
+    <div className="picture">   
+    <img className="pic" src={logo1} onClick={() => {filterItem('Apple')}}/>
+    <img className="pic" src={logo2} onClick={() => {filterItem('Huawei')}}/><br/>
+    <img className="pic" src={logo3} onClick={() => {filterItem('Oppo')}}/>
+    <img className="pic" src={logo4} onClick={() => {filterItem('Samsung')}}/>
+    <img className="pic" src={logo5} onClick={() => {setDataItems(data)}}/>
+
+    </div>
+
 ​
     <section className='container py-4 py-lg-5'>
-        <div className= 'row justify-content-center'>
+        <div className= 'row justify-content-center' >
             {dataItems.map((item, index)=>{
                 return(<Card key={index} model={item.model} picture={item.picture} category={item.category} link={`/details/${item.id}`} />)
             })}

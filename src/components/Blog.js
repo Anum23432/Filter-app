@@ -29,7 +29,7 @@ function Blog() {
     <section className='container py-4 py-lg-5'>
         <div className= 'row justify-content-center'>
             {dataItems.map((item, index)=>{
-                return(<Card key={index} model={item.model} image={item.image} category={item.category} name={item.name} link={`/details/${item.id}`} />)
+                return(<Card key={index} model={item.model} picture={item.picture} category={item.category} link={`/details/${item.id}`} />)
             })}
             
 ​

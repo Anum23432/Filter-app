@@ -1,6 +1,6 @@
 import React from "react";
 import data from "./Data";
-
+import Comments from './Comments';
 
 
 
@@ -10,17 +10,33 @@ function Details(props) {
     console.log(getData);
     return (
         <>
-            <h1>Blog Deatils</h1>
-            <div className='col-11 col-md-6 col-lg-3 mx-0 mb-4'>
-                <div className="card p-0 overflow-hidden h-100 shadow" >
-                    <img src={getData.image} className="card-img-top" alt="..." />
+        <br/><br/><br/>
+            <h1>REVIEWS</h1>
+            
+            <div className='box1'>
+                <div className="box2" >
+                <img src={getData.picture} className="card-img-top" alt="mobile"/><hr/>
                     <div className="card-body">
 
-                        <p className="card-text">{getData.description}.</p>
+                        <h6 className="card-text">Memory: </h6> <p>{getData.memory}</p>
+                        <h6 className="card-text">Body Built: </h6> <p>{getData.body}</p>
+                        <h6 className="card-text">Display: </h6><p>{getData.display}</p>
+                        <h6 className="card-text">Battery: </h6><p>{getData.battery}</p>
+                        <h6 className="card-text">Price: </h6><p>{getData.price}</p>
 
                     </div>
-                </div>
-            </div>
+                </div><br/>
+ 
+  </div>
+  <div className="feedback">
+      
+      <Comments
+        commentsUrl="http://localhost:3004/comments"
+        currentUserId="1"
+      />
+    </div>
+            <br/>
+  
 
 
         </>

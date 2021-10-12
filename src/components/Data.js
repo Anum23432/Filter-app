@@ -6,7 +6,7 @@ const data =
           "category": "Samsung",
           "id": 1,
           "model": "Galaxy Z flip3",
-          "picture": 'public/images/sam2.jpg',
+          "picture": "public/images/sam2.jpg",
           "body": "Plastic front, glass back (Gorilla Glass Victus), aluminum frame",
           "display": "1080 x 2640 pixels (~426 ppi density)",
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",
@@ -23,7 +23,7 @@ const data =
           "memory": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 6GB RAM, 256GB 8GB RAM",
           "battery": "Li-Po 4500 mAh, non-removable",
           "price": "Rs 65,999.00",
-          "picture": '../images/sam3.jpg'
+          "picture": "../images/sam3.jpg"
         },
         {
           "category": "Samsung",
@@ -45,7 +45,7 @@ const data =
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",
           "battery": "Li-Ion 4800 mAh, non-removable",
           "price": "‎Rs 176,500.00 to Rs 234,500.00",
-          "picture": '../images/sam5.jpg'
+          "picture": "../images/sam5.jpg"
         },
         {
           "category": "Apple",

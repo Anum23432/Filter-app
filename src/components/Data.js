@@ -1,3 +1,20 @@
+import logo1 from './assets/sam2.jpg';
+import logo2 from './assets/sam3.jpg';
+import logo3 from './assets/sam4.png';
+import logo4 from './assets/sam5.jpg';
+import logo5 from './assets/p00.jpg';
+import logo6 from './assets/p1.jpg';
+import logo7 from './assets/p2.png';
+import logo8 from './assets/p3.jpg';
+import logo9 from './assets/op11.jpg';
+import logo10 from './assets/op12.jpg';
+import logo11 from './assets/op13.jpg';
+import logo12 from './assets/op14.jpg';
+import logo13 from './assets/hu11.png';
+import logo14 from './assets/hu12.jpg';
+import logo15 from './assets/hu13.jpg';
+import logo16 from './assets/hu14.jpg';
+
 
 const data = 
     
@@ -6,7 +23,7 @@ const data =
           "category": "Samsung",
           "id": 1,
           "model": "Galaxy Z flip3",
-          "picture": "public/images/sam2.jpg",
+          "picture": logo1,
           "body": "Plastic front, glass back (Gorilla Glass Victus), aluminum frame",
           "display": "1080 x 2640 pixels (~426 ppi density)",
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",
@@ -23,7 +40,7 @@ const data =
           "memory": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 6GB RAM, 256GB 8GB RAM",
           "battery": "Li-Po 4500 mAh, non-removable",
           "price": "Rs 65,999.00",
-          "picture": "../images/sam3.jpg"
+          "picture": logo2
         },
         {
           "category": "Samsung",
@@ -34,7 +51,7 @@ const data =
           "memory": "128GB 6GB RAM, 128GB 8GB RAM",
           "battery": "Li-Po 7000 mAh, non-removable",
           "price": "Rs 55,999.00",
-          "picture": '../images/sam4.png'
+          "picture": logo3
         },
         {
           "category": "Samsung",
@@ -45,7 +62,7 @@ const data =
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",
           "battery": "Li-Ion 4800 mAh, non-removable",
           "price": "‎Rs 176,500.00 to Rs 234,500.00",
-          "picture": "../images/sam5.jpg"
+          "picture": logo4
         },
         {
           "category": "Apple",
@@ -56,7 +73,7 @@ const data =
           "memory": "64GB 4GB RAM, 256GB 4GB RAM, 512GB 4GB RAM",
           "battery": "Li-Ion 2658 mAh, non-removable (10.13 Wh)",
           "price": " Rs. 141,999",
-          "picture": '../images/p00.jpg'
+          "picture": logo5
         },
         {
           "category": "Apple",
@@ -67,7 +84,7 @@ const data =
           "memory": "	64GB 4GB RAM, 256GB 4GB RAM, 512GB 4GB RAM",
           "battery": "Li-Ion 3046 mAh, non-removable (11.67 Wh)",
           "price": "Rs. 207,799",
-          "picture": '../images/p1.jpg'
+          "picture": logo6
     
     
         },
@@ -80,7 +97,7 @@ const data =
           "memory": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM",
           "battery": "Li-Ion 2815 mAh, non-removable (10.78 Wh)",
           "price": "Rs.170,999",
-          "picture": '../images/p2.png'
+          "picture": logo7
         },
     
         {
@@ -92,7 +109,7 @@ const data =
           "memory": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM",
           "battery": "Li-Ion 3095 mAh, non-removable (12.11 Wh)",
           "price": "Rs. 234,999",
-          "picture": '../images/p3.jpg'
+          "picture": logo8
     
         },
         {
@@ -104,7 +121,7 @@ const data =
           "memory": "32GB 3GB RAM, 64GB 4GB RAM, 256GB 4GB RAM",
           "battery": "Li-Po 5000 mAh, non-removable",
           "price": "Rs. 26,999",
-          "picture": '../images/op11.jpg'
+          "picture": logo9
         },
         {
           "category": "Oppo",
@@ -115,7 +132,7 @@ const data =
           "memory": "128GB 8GB RAM, 256GB 12GB RAM",
           "battery": "Li-Po 4500 mAh, non-removable",
           "price": "Rs. 109,999",
-          "picture": '../images/op12.jpg'
+          "picture": logo10
     
         },
         {
@@ -127,7 +144,7 @@ const data =
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",
           "battery": "Li-Po 4310 mAh, non-removable",
           "price": "Rs. 23,999",
-          "picture": '../images/op13.jpg'
+          "picture": logo11
     
     
         },
@@ -140,7 +157,7 @@ const data =
           "memory": "256GB 12GB RAM, 512GB 12GB RAM",
           "battery": "Li-Po 4260 mAh, non-removable",
           "price": "Rs. 74,999",
-          "picture": '../images/op14.jpg'
+          "picture": logo12
     
         },
         {
@@ -152,7 +169,7 @@ const data =
           "memory": "128GB 6GB RAM, 128GB 8GB RAM",
           "battery": "Li-Po 4200 mAh or 4300 mAh, non-removable (region dependent)",
           "price": "Rs. 43,999",
-          "picture": '../images/hu11.png'
+          "picture": logo13
     
         },
         {
@@ -164,7 +181,7 @@ const data =
           "memory": "128GB 8GB RAM",
           "battery": "Li-Po 4200 mAh, non-removable",
           "price": "Rs. 41,999",
-          "picture": '../images/hu12.jpg'
+          "picture": logo14
     
         },
         {
@@ -176,7 +193,7 @@ const data =
           "memory": "128GB 6GB RAM",
           "battery": "Li-Po 4000 mAh, non-removable",
           "price": "Rs 40,999.00",
-          "picture": '../images/hu13.jpg'
+          "picture": logo15
     
         },
         {
@@ -188,7 +205,7 @@ const data =
           "memory": "128GB 8GB RAM, 256GB 8GB RAM",
           "battery": "Li-Po 4500 mAh, non-removable",
           "price": "Rs. 194,999",
-          "picture": '../images/hu14.jpg'
+          "picture": logo16
     
         }
       ]

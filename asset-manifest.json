@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Filter-app/static/css/main.83f2899d.chunk.css",
-    "main.js": "/Filter-app/static/js/main.ba372bbf.chunk.js",
-    "main.js.map": "/Filter-app/static/js/main.ba372bbf.chunk.js.map",
+    "main.js": "/Filter-app/static/js/main.f261d6e3.chunk.js",
+    "main.js.map": "/Filter-app/static/js/main.f261d6e3.chunk.js.map",
     "runtime-main.js": "/Filter-app/static/js/runtime-main.34315fa0.js",
     "runtime-main.js.map": "/Filter-app/static/js/runtime-main.34315fa0.js.map",
     "static/css/2.c1256375.chunk.css": "/Filter-app/static/css/2.c1256375.chunk.css",
@@ -43,6 +43,6 @@
     "static/css/2.c1256375.chunk.css",
     "static/js/2.e228f641.chunk.js",
     "static/css/main.83f2899d.chunk.css",
-    "static/js/main.ba372bbf.chunk.js"
+    "static/js/main.f261d6e3.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import Card from "./Card";
 import data from "./Data";
-import logo1 from './images/ap1.jpg';
-import logo2 from './images/ap5.jpg';
-import logo3 from './images/ap7.jpg';
-import logo4 from './images/ap2.jpg';
-import logo5 from './images/all.jpg';
+import logo1 from './assets/ap1.jpg';
+import logo2 from './assets/ap5.jpg';
+import logo3 from './assets/ap7.jpg';
+import logo4 from './assets/ap2.jpg';
+import logo5 from './assets/all.jpg';
 
 
 

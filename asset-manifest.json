@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Filter-app/static/css/main.83f2899d.chunk.css",
+    "main.css": "/Filter-app/static/css/main.4af76abe.chunk.css",
     "main.js": "/Filter-app/static/js/main.c716f596.chunk.js",
     "main.js.map": "/Filter-app/static/js/main.c716f596.chunk.js.map",
     "runtime-main.js": "/Filter-app/static/js/runtime-main.34315fa0.js",
@@ -12,7 +12,7 @@
     "static/js/3.cb90047d.chunk.js.map": "/Filter-app/static/js/3.cb90047d.chunk.js.map",
     "index.html": "/Filter-app/index.html",
     "static/css/2.c1256375.chunk.css.map": "/Filter-app/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.83f2899d.chunk.css.map": "/Filter-app/static/css/main.83f2899d.chunk.css.map",
+    "static/css/main.4af76abe.chunk.css.map": "/Filter-app/static/css/main.4af76abe.chunk.css.map",
     "static/js/2.e228f641.chunk.js.LICENSE.txt": "/Filter-app/static/js/2.e228f641.chunk.js.LICENSE.txt",
     "static/media/1.10691648.png": "/Filter-app/static/media/1.10691648.png",
     "static/media/all.489a379d.jpg": "/Filter-app/static/media/all.489a379d.jpg",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.34315fa0.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.e228f641.chunk.js",
-    "static/css/main.83f2899d.chunk.css",
+    "static/css/main.4af76abe.chunk.css",
     "static/js/main.c716f596.chunk.js"
   ]
 }

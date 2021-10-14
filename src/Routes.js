@@ -11,6 +11,7 @@ import Details from "./components/Details";
 import Navbar from 'react-bootstrap/Navbar';
 import Home from "./components/Home";
 import './App.css';
+import { useHistory } from "react-router";
 
 
 
@@ -18,15 +19,16 @@ import './App.css';
 
 
 function Routes() {
+   let history = useHistory();
   
   return (
     <>
       
       <Router>
-      <Navbar bg="dark" fixed="top">
+      <Navbar bg="dark" fixed="top" className="justify-content-center ">
           <div className="nav">
-            <Navbar.Brand className="heading" style={{ color: 'white' }} as={Link} to="/">Home</Navbar.Brand>
-            <Navbar.Brand className="heading" style={{ color: 'white' }} as={Link} to="/Blog">Let's Start</Navbar.Brand>
+            <Navbar.Brand className="navbtn" style={{ color: 'white',fontSize:'25px' }} onClick={() => history.push("/Home")}>Home</Navbar.Brand>
+            <Navbar.Brand className="navbtn" style={{ color: 'white',fontSize:'24px' }} onClick={() => history.push("/Blog")}> Mobiles </Navbar.Brand>
           </div>
         </Navbar>
         

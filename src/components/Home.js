@@ -62,8 +62,8 @@ function Home() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-</div><br/><br/>
-<h2>Before Buying Check..</h2> <br />
+</div><br/>
+<h2>Before Buying Check..</h2> <br/><br/>
  <Animation/>
 
 </>

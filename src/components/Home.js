@@ -63,7 +63,7 @@ function Home() {
   </Carousel.Item>
 </Carousel>
 </div><br/>
-<h2>Before Buying Check..</h2> <br/><br/>
+<h2>Before Buying Check..</h2> <br/><br/><br/>
  <Animation/>
 
 </>

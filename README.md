@@ -19,11 +19,11 @@
 
 ## Software needed to run for this app:
 
--VS Code (as Editor)
--Browser (as runtime environment)
+- VS Code (as Editor)
+- Browser (as runtime environment)
 
 ## How to run code in this repo?
 
 To run this app, click live github website link given below.
-Live link: https://anum23432.github.io/Filter-app/#/
-Repo Link: https://github.com/Anum23432/Filter-app
+## Live link: https://anum23432.github.io/Filter-app/#/
+## Repo Link: https://github.com/Anum23432/Filter-app

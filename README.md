@@ -1,21 +1,21 @@
 ## Capstone-Project:
 
--This repo is for Capstone Project name 'Review App'.
--This activity is based on live projects.
+- This repo is for Capstone Project name 'Review App'.
+- This activity is based on live projects.
 
 ## Group Members:
 
--Samreen Shafaq (Team-Lead)
--Anum Anees
+- Samreen Shafaq (Team-Lead)
+- Anum Anees
 
-##What does this app do?
+## What does this app do?
 
--Motivation behind this website is to create a platform for the product already used by users and give their reviews on this website.
--This App basically based on LMD Pakistan is website on which people give reviews of products .
+- Motivation behind this website is to create a platform for the product already used by users and give their reviews on this website.
+- This App basically based on LMD Pakistan is website on which people give reviews of products .
 
-##Technologies used:
+## Technologies used:
 
--HTML, CSS, ReactJS,Bootstrap.
+- HTML, CSS, ReactJS,Bootstrap.
 
 ## Software needed to run for this app:
 
